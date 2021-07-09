@@ -4,7 +4,7 @@ import Chart from './chart'
 function index() {
     return (
         <div>
-            <h1>Hi</h1>
+            <h1>vikum</h1>
             <div>
                 <Chart></Chart>
             </div>
