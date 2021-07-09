@@ -5,6 +5,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import Button from '@material-ui/core/Button';
+import Chart from './chart';
 
 const useStyles = makeStyles((theme) => ({
   button: {
@@ -58,6 +59,7 @@ export default function ControlledOpenSelect() {
           <MenuItem value={30}>Thirty</MenuItem>
         </Select>
       </FormControl>
+      <div><Chart></Chart></div>
     </div>
   );
 }
