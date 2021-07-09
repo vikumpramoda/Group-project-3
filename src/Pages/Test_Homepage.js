@@ -1,5 +1,4 @@
 import React from 'react'
-import index from '.'
 import Chart from './chart'
 
 
